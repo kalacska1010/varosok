@@ -8,20 +8,20 @@ class MySqlDB {
     private $db_nev;
     private $kapcs;
 
-//    public function __construct() {
-//        $this->db_szerver = "localhost";
-//        $this->db_felhnev = "root";
-//        $this->db_jelszo = "";
-//        $this->db_nev = "telefonkonyv";
-//        $this->kapcsolat();
-//    }
-     public function __construct() {
-        $this->db_szerver = "tanulo16.szf1a.oktatas.szamalk-szalezi.hu";
-        $this->db_felhnev = "c1_tanulo16szf1a";
-        $this->db_jelszo = "_tanulo16szf1a";
-        $this->db_nev = "c1ABtanulo16szf1a";
+    public function __construct() {
+        $this->db_szerver = "localhost";
+        $this->db_felhnev = "root";
+        $this->db_jelszo = "";
+        $this->db_nev = "varosok";
         $this->kapcsolat();
     }
+//     public function __construct() {
+//        $this->db_szerver = "tanulo16.szf1a.oktatas.szamalk-szalezi.hu";
+//        $this->db_felhnev = "c1_tanulo16szf1a";
+//        $this->db_jelszo = "_tanulo16szf1a";
+//        $this->db_nev = "c1ABtanulo16szf1a";
+//        $this->kapcsolat();
+//    }
 
 
     public function kapcsolat() {

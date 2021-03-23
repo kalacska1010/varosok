@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+table{
+    width: 100%;
+    /*eltüntetni a táblázatból a */
+    border-collapse: collapse;
+}
+table td,th{
+    border: 1px solid black;
+    
+}
+/*mindenmásodik*/
+table tr:nth-child(odd){
+    background-color: lightgray;
+}
+
+.fejlec{
+ cursor: grab;
+ background: red;
+}
